@@ -2,7 +2,7 @@
   "name": "nvd-use-storage",
   "version": "1.0.0",
   "description": "",
-  "main": "src/",
+  "main": "src/useStorage.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/engrnvd/use-storage.git"
