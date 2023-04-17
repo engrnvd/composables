@@ -1,5 +1,5 @@
 {
-  "name": "use-storage",
+  "name": "nvd-use-storage",
   "version": "1.0.0",
   "description": "",
   "main": "src/",
@@ -8,7 +8,7 @@
     "url": "git+https://github.com/engrnvd/use-storage.git"
   },
   "dependencies": {
-    "vue": "^3"
+    "vue": "3.*"
   },
   "author": "Naveed ul Hassan",
   "license": "ISC",
