@@ -1,0 +1,19 @@
+{
+  "name": "use-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engrnvd/use-storage.git"
+  },
+  "dependencies": {
+    "vue": "^3"
+  },
+  "author": "Naveed ul Hassan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/engrnvd/use-storage/issues"
+  },
+  "homepage": "https://github.com/engrnvd/use-storage#readme"
+}
