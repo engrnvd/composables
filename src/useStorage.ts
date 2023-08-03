@@ -3,7 +3,7 @@ import { ref, watch } from 'vue'
 export function useStorage(key, data = null) {
   let storedData = read()
 
-  if (storedData) {
+  if (storedData !== null && storedData !== undefined) {
     data = ref(storedData)
   } else {
     data = ref(data)
