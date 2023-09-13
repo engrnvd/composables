@@ -15,7 +15,11 @@ export function useStorage(key, data = null) {
   function read() {
     let v = localStorage.getItem(key)
     if (!v) return v
-    return JSON.parse(v)
+    try {
+      return JSON.parse(v)
+    } catch (e) {
+      return v
+    }
   }
 
   function write() {
